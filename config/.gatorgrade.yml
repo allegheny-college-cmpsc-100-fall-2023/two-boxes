@@ -1,0 +1,25 @@
+- ./:
+    - LINK.md:
+        - description: Add Trinket link to LINK.md
+          check: MatchFileFragment
+          options:
+            fragment: trinket.io
+            count: 1
+    - main.py:
+        - description: Declare a variable called y and assign it a numerical value
+          check: MatchFileRegex
+          options:
+            regex: y\s*=\s*-?\d+
+            count: 1
+        - description: Draw two boxes
+          check: MatchFileFragment
+          options:
+            fragment: box(
+            count: 2
+        - description: Use the y variable to set the y-coordinate of both boxes
+          check:  MatchFileRegex
+          options:
+            regex: (pos.y\s*=\s*y)|(\s*\d+\s*,\s*y\s*,\s*\d+\s*)
+            count: 2
+
+     
