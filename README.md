@@ -2,6 +2,9 @@
 
 In this quick exercise, you will use the what we learned this week two draw two boxes with the same y coordinate. 
 
+![image](https://github.com/allegheny-college-cmpsc-100-fall-2023/two-boxes/assets/8368413/c881a4e2-c0fd-406d-8843-56178a9d7a8e)
+
+
 You can reference Wednesday's [lecture notes](https://github.com/allegheny-college-cmpsc-100-fall-2023/course-materials/blob/main/lecture-content/comments-and-shapes-9-6.md#shapes-in-vpython) when completing your assignment. Note that I am asking you to do something different than what's in the lecture dmeo, but that uses the same syntax and principles. 
 
 ## Instructions 
